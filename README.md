@@ -48,7 +48,7 @@ forge create --rpc-url https://alpha-rpc.scroll.io/l2 --value 0.00000000002ether
 ## Verify
 
 ```
-npx hardhat verify --network scrollTestnet 0x95ad51f4406bf2AF31e3A2e2d75262EE19432261 123
+npx hardhat verify --network scrollTestnet {contract-address} {contract-args}
 ```
 
 ## Support
