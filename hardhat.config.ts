@@ -30,10 +30,10 @@ const config: HardhatUserConfig = {
     customChains: [
       {
         network: "scrollTestnet",
-        chainId: 534353,
+        chainId: 534351,
         urls: {
-          apiURL: "https://scrollscan-alpha.unifra.io/api/contract",
-          browserURL: "https://scrollscan-alpha.unifra.io/",
+          apiURL: "https://scroll.l2scan.co/api/contract",
+          browserURL: "https://scroll.l2scan.co/",
         },
       },
     ],
