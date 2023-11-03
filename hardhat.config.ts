@@ -32,8 +32,8 @@ const config: HardhatUserConfig = {
         network: "scrollTestnet",
         chainId: 534351,
         urls: {
-          apiURL: "https://scroll.l2scan.co/api/contract",
-          browserURL: "https://scroll.l2scan.co/",
+          apiURL: "https://scroll-sepolia.l2scan.co/api/contract",
+          browserURL: "https://scroll-sepolia.l2scan.co/",
         },
       },
     ],
