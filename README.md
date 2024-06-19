@@ -27,6 +27,6 @@ curl -X POST 'https://testnet-scan.merlinchain.io/api' -d 'apikey=no-need-apikey
 ```
 
 ```sh
-# check contract verification status
+# Check contract verification status
 curl 'https://testnet-scan.merlinchain.io/api?guid=0x1577a2B1FCF7141B562655831A30c4B2f40D83fD667255f9&module=contract&action=checkverifystatus'
 ```
